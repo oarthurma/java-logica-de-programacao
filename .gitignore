@@ -1,0 +1,17 @@
+# Arquivos compilados (o Eclipse gera de novo em cada maquina) 
+bin/ 
+*.class 
+
+# Configuracoes locais de workspace (por seguranca, caso algo escape) 
+.metadata/ 
+.recommenders/ 
+.sonarlint/ 
+RemoteSystemsTempFiles/ 
+
+# Lixo gerado pelo Windows e pelo Linux 
+Thumbs.db 
+desktop.ini 
+*~
+
+# Configuracao do plugin SonarLint (so existe nesta maquina) 
+**/.settings/org.sonarlint.eclipse.core.prefs
