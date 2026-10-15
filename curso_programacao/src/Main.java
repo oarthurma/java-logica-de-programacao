@@ -1,21 +1,15 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
-
-		int num = sc.nextInt();
 		
-		int soma = 0;
-		while (num != 0) {
-			soma += num;
-			num = sc.nextInt();
-		}
+		//Locale.setDefault(Locale.in);
+		//Scanner sc = new Scanner(System.in);
 		
-		System.out.println(soma);
 		
-		sc.close();
+		
+		//sc.close();
 	}
 }
