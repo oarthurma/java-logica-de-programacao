@@ -9,7 +9,6 @@ public class ex_09 {
 		Scanner sc = new Scanner(System.in);
 		
 		int N = sc.nextInt();
-		
 		double vet[] = new double[N];
 		
 		for (int i=0; i<N; i++) {
@@ -17,24 +16,21 @@ public class ex_09 {
 		}
 		
 		for (int i=0; i<N; i++) {
-			System.out.printf("%.1f ", vet[i]);
+			System.out.print(vet[i] + " ");
 		}
+		System.out.println();
 		
-		double soma = 0;
-		double media;
-		
+		double soma = 0.0;
 		for (int i=0; i<N; i++) {
-			vet[i] += soma;
+			soma += vet[i];
 		}
 		
-		media = soma / N;
-		
-		System.out.print("%n");
 		System.out.printf("%.2f%n", soma);
+		
+		double media = soma /N;
 		System.out.printf("%.2f%n", media);
 		
 		sc.close();
-
 	}
 
 }
